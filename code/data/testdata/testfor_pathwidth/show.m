@@ -1,6 +1,6 @@
 clear
 clc
-str = 'data20';
+str = 'data1_minwidth';
 % show the distance
 load(str)
 for i = 1:size(left,1)

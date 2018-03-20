@@ -2,9 +2,9 @@
 % everytime remember to change the first three parameters
 clear
 clc
-generation = 8;
-str_old = 'data8';
-str_new = 'data9';
+generation = 1;
+str_old = ['data',num2str(generation)];
+str_new = ['data',num2str(generation +1)];
 load([str_old '_desire.mat'])
 oldlefts = left;
 oldrights = right;

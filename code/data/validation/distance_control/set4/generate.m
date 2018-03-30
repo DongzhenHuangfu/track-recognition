@@ -3,6 +3,7 @@ function [left,right,enddirection] = generate(oldlefts, oldrights, direction, nu
 % generate the left cones set
 cone_distance_left = rand(1,numberleft)*(maxdistance-mindistance) + mindistance;
 cone_direction_left = rand(1,numberleft)*(maxangle-minangle) + minangle;
+cone_distance_left
 
  for i = 1:numberleft
      if i==1 
@@ -28,7 +29,7 @@ cone_direction_left = rand(1,numberleft)*(maxangle-minangle) + minangle;
      for i = 1:numberright
          right(i,1) = left(i,1) + cos(angle_left(i)-0.5*pi)*width(i);
          right(i,2) = left(i,2) + sin(angle_left(i)-0.5*pi)*width(i);
-         right(i,3) = 100*generation + i + 1;
+         right(i,3) = 100*generation + 50 + i + 1;
      end
  end
  

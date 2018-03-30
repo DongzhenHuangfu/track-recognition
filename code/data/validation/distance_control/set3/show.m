@@ -16,8 +16,8 @@ for i = 1:size(right,1)
         end
     end
 end
-% ar
-% ag
+ar
+ag
 %plot in figures
 plot(left(:,1),left(:,2),['r' way '*'])
 for i = 1:size(left,1)

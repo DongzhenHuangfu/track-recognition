@@ -2,7 +2,7 @@
 close all
 clear
 clc
-setname = '6';
+setname = '9';
 dataname = ['data' setname '0'];
 reposname = ['set' setname '/'];
 conenumber = 10;
@@ -13,9 +13,9 @@ mindistance = 8;
 maxtrackwidth = 9;
 mintrackwidth = 5;
 starting_distance = 3;
-breaking_position = [5 6 10 11];
+breaking_position = [4 5 6];
 % seperate_list = [4 6 8 10 12 ];
-continuous_bad_cones = 2 ;
+continuous_bad_cones = 3 ;
 %generate cones
 load('data1');
 

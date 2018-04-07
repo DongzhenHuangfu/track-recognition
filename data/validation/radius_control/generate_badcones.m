@@ -118,6 +118,6 @@ end
 
 figure()
 show([reposname 'data2'],'')
-saveas(1,[reposname 'pictures/'  'data2_input.jpg'])
+saveas(3,[reposname 'pictures/'  'data2_input.jpg'])
 
 end
